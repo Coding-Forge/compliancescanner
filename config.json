@@ -1,0 +1,14 @@
+{
+    "EncryptedKeys": "False",
+    "AppClientID": "400340ad-c194-4287-afbe-37c04b0b31b0",
+    "ClientSecretValue": "",
+    "TenantGUID": "",
+    "TenantDomain": "WhiteBearAdventures.com",
+    "LA_CustomerID":  "",
+    "LA_SharedKey":  "",
+    "Cloud": "Commercial",
+	"CertificateThumb": "",
+	"OnmicrosoftURL": "M365x66046689.onmicrosoft.com",
+	"RMSLogs": "RMSLogs\\",
+	"OutPutLogs": "Logs\\"
+}
