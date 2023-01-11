@@ -627,8 +627,11 @@ $CLOUDVERSIONS = @{
 
 # Script variables 01  --> Update everything in this section:
 $BatchSize = 500
-$CONFIGFILE = "$PSScriptRoot\config.json"   
-$SCHEMASFILE = "$PSScriptRoot\shemas.json"   
+
+$Path = (Get-Location).Path
+
+$CONFIGFILE = "$Path\config.json"   
+$SCHEMASFILE = "$Path\shemas.json"   
 
 if (-not $OutputPath.EndsWith("\"))
 {
