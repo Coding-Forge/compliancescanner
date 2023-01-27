@@ -1,0 +1,51 @@
+{
+  "CreationTime": "2023-01-17T20:11:49",
+  "Id": "d821d822-8a4a-4feb-9a0f-a65e9a4977b2",
+  "Operation": "MailItemsAccessed",
+  "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+  "RecordType": 50,
+  "ResultStatus": "Succeeded",
+  "UserKey": "10032001EFDB62A1",
+  "UserType": 0,
+  "Version": 1,
+  "Workload": "Exchange",
+  "UserId": "admin@M365x66046689.OnMicrosoft.com",
+  "AppId": "a3883eba-fbe9-48bd-9ed3-dca3e0e84250",
+  "ClientAppId": "a3883eba-fbe9-48bd-9ed3-dca3e0e84250",
+  "ClientIPAddress": "2603:10b6:a03:478::19",
+  "ClientInfoString": "Client=REST;Client=RESTSystem;;",
+  "ExternalAccess": false,
+  "InternalLogonType": 0,
+  "LogonType": 0,
+  "LogonUserSid": "S-1-5-21-2920428662-559102424-2492728372-18211953",
+  "MailboxGuid": "2b0bcb5f-12a9-4b45-9d5f-718db3564bf8",
+  "MailboxOwnerSid": "S-1-5-21-2920428662-559102424-2492728372-18211953",
+  "MailboxOwnerUPN": "admin@M365x66046689.OnMicrosoft.com",
+  "OperationProperties": [
+    {
+      "Name": "MailAccessType",
+      "Value": "Bind"
+    },
+    {
+      "Name": "IsThrottled",
+      "Value": "False"
+    }
+  ],
+  "OrganizationName": "M365x66046689.onmicrosoft.com",
+  "OriginatingServer": "SJ0PR10MB5857 (15.20.4200.000)\r\n",
+  "Folders": [
+    {
+      "FolderItems": [
+        {
+          "ClientRequestId": "80123f8f-f36d-4142-aa4f-95bd7a4389f2",
+          "InternetMessageId": "<5f35f581-a9a6-470e-8c0a-48b5fbe72992@az.southcentralus.unknown.microsoft.com>",
+          "SizeInBytes": 169496
+        }
+      ],
+      "Id": "LgAAAAAgTfM57+LnRoihv59ry9i/AQDd9mqVdTkXSobw3N7xOqGSAAAAAAEMAAAB",
+      "Path": "\\Inbox"
+    }
+  ],
+  "OperationCount": 1,
+  "EventCreationTime": "2023-01-17T20:11:49"
+}

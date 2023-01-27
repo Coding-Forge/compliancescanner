@@ -1,0 +1,964 @@
+[
+  {
+    "CreationTime": "2023-01-13T16:58:27",
+    "Id": "35f673ea-bf98-4866-8a09-5e5c30142100",
+    "Operation": "UserLoggedIn",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 15,
+    "ResultStatus": "Success",
+    "UserKey": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "AzureActiveDirectory",
+    "ClientIP": "108.196.164.24",
+    "ObjectId": "797f4846-ba00-4fd7-ba43-dac1f8f63013",
+    "UserId": "admin@M365x66046689.onmicrosoft.com",
+    "AzureActiveDirectoryEventType": 1,
+    "ExtendedProperties": [
+      {
+        "Name": "ResultStatusDetail",
+        "Value": "Success"
+      },
+      {
+        "Name": "UserAgent",
+        "Value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.49"
+      },
+      {
+        "Name": "RequestType",
+        "Value": "OAuth2:Authorize"
+      }
+    ],
+    "ModifiedProperties": [],
+    "Actor": [
+      {
+        "ID": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 0
+      },
+      {
+        "ID": "admin@M365x66046689.onmicrosoft.com",
+        "Type": 5
+      }
+    ],
+    "ActorContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "ActorIpAddress": "108.196.164.24",
+    "InterSystemsId": "c4abba9e-03db-4d58-ab9b-8f166a15138f",
+    "IntraSystemId": "35f673ea-bf98-4866-8a09-5e5c30142100",
+    "SupportTicketId": "",
+    "Target": [
+      {
+        "ID": "797f4846-ba00-4fd7-ba43-dac1f8f63013",
+        "Type": 0
+      }
+    ],
+    "TargetContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "ApplicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+    "DeviceProperties": [
+      {
+        "Name": "Id",
+        "Value": "2520dbc8-5c5e-44cd-a629-ad8f401536bc"
+      },
+      {
+        "Name": "DisplayName",
+        "Value": "LAPTOP-M68UHIVJ"
+      },
+      {
+        "Name": "OS",
+        "Value": "Windows 10"
+      },
+      {
+        "Name": "BrowserType",
+        "Value": "Edge"
+      },
+      {
+        "Name": "IsCompliantAndManaged",
+        "Value": "False"
+      },
+      {
+        "Name": "TrustType",
+        "Value": "0"
+      },
+      {
+        "Name": "SessionId",
+        "Value": "ac0f2796-0a0a-4cd5-8e7d-6620a023870c"
+      }
+    ],
+    "ErrorNumber": "0",
+    "EventCreationTime": "2023-01-13T16:58:27"
+  },
+  {
+    "CreationTime": "2023-01-13T16:55:03",
+    "Id": "28f07b9e-ed86-4789-95aa-dfbc49502000",
+    "Operation": "UserLoggedIn",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 15,
+    "ResultStatus": "Success",
+    "UserKey": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "AzureActiveDirectory",
+    "ClientIP": "108.196.164.24",
+    "ObjectId": "f920ab6b-8a48-4438-9255-1650179a3a0f",
+    "UserId": "admin@M365x66046689.onmicrosoft.com",
+    "AzureActiveDirectoryEventType": 1,
+    "ExtendedProperties": [
+      {
+        "Name": "ResultStatusDetail",
+        "Value": "Redirect"
+      },
+      {
+        "Name": "UserAgent",
+        "Value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.49"
+      },
+      {
+        "Name": "RequestType",
+        "Value": "OAuth2:Authorize"
+      }
+    ],
+    "ModifiedProperties": [],
+    "Actor": [
+      {
+        "ID": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 0
+      },
+      {
+        "ID": "admin@M365x66046689.onmicrosoft.com",
+        "Type": 5
+      }
+    ],
+    "ActorContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "ActorIpAddress": "108.196.164.24",
+    "InterSystemsId": "d3814f94-66d3-41b2-8c54-fff49b78d55c",
+    "IntraSystemId": "28f07b9e-ed86-4789-95aa-dfbc49502000",
+    "SupportTicketId": "",
+    "Target": [
+      {
+        "ID": "f920ab6b-8a48-4438-9255-1650179a3a0f",
+        "Type": 0
+      }
+    ],
+    "TargetContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "ApplicationId": "d7b530a4-7680-4c23-a8bf-c52c121d2e87",
+    "DeviceProperties": [
+      {
+        "Name": "Id",
+        "Value": "2520dbc8-5c5e-44cd-a629-ad8f401536bc"
+      },
+      {
+        "Name": "DisplayName",
+        "Value": "LAPTOP-M68UHIVJ"
+      },
+      {
+        "Name": "OS",
+        "Value": "Windows 10"
+      },
+      {
+        "Name": "BrowserType",
+        "Value": "Edge"
+      },
+      {
+        "Name": "IsCompliantAndManaged",
+        "Value": "False"
+      },
+      {
+        "Name": "TrustType",
+        "Value": "0"
+      },
+      {
+        "Name": "SessionId",
+        "Value": "ac0f2796-0a0a-4cd5-8e7d-6620a023870c"
+      }
+    ],
+    "ErrorNumber": "0",
+    "EventCreationTime": "2023-01-13T16:55:03"
+  },
+  {
+    "CreationTime": "2023-01-13T16:55:04",
+    "Id": "84068d08-cd9c-4b8d-89d7-4ad6a78d1900",
+    "Operation": "UserLoggedIn",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 15,
+    "ResultStatus": "Success",
+    "UserKey": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "AzureActiveDirectory",
+    "ClientIP": "108.196.164.24",
+    "ObjectId": "00000003-0000-0000-c000-000000000000",
+    "UserId": "admin@M365x66046689.onmicrosoft.com",
+    "AzureActiveDirectoryEventType": 1,
+    "ExtendedProperties": [
+      {
+        "Name": "ResultStatusDetail",
+        "Value": "Redirect"
+      },
+      {
+        "Name": "UserAgent",
+        "Value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.49"
+      },
+      {
+        "Name": "RequestType",
+        "Value": "OAuth2:Authorize"
+      }
+    ],
+    "ModifiedProperties": [],
+    "Actor": [
+      {
+        "ID": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 0
+      },
+      {
+        "ID": "admin@M365x66046689.onmicrosoft.com",
+        "Type": 5
+      }
+    ],
+    "ActorContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "ActorIpAddress": "108.196.164.24",
+    "InterSystemsId": "e9b6f681-e39f-4633-87f1-af5b7d62b450",
+    "IntraSystemId": "84068d08-cd9c-4b8d-89d7-4ad6a78d1900",
+    "SupportTicketId": "",
+    "Target": [
+      {
+        "ID": "00000003-0000-0000-c000-000000000000",
+        "Type": 0
+      }
+    ],
+    "TargetContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "ApplicationId": "d7b530a4-7680-4c23-a8bf-c52c121d2e87",
+    "DeviceProperties": [
+      {
+        "Name": "Id",
+        "Value": "2520dbc8-5c5e-44cd-a629-ad8f401536bc"
+      },
+      {
+        "Name": "DisplayName",
+        "Value": "LAPTOP-M68UHIVJ"
+      },
+      {
+        "Name": "OS",
+        "Value": "Windows 10"
+      },
+      {
+        "Name": "BrowserType",
+        "Value": "Edge"
+      },
+      {
+        "Name": "IsCompliantAndManaged",
+        "Value": "False"
+      },
+      {
+        "Name": "TrustType",
+        "Value": "0"
+      },
+      {
+        "Name": "SessionId",
+        "Value": "ac0f2796-0a0a-4cd5-8e7d-6620a023870c"
+      }
+    ],
+    "ErrorNumber": "0",
+    "EventCreationTime": "2023-01-13T16:55:04"
+  },
+  {
+    "CreationTime": "2023-01-13T20:06:48",
+    "Id": "0e603e40-c7f2-400e-a901-830ab957d9de",
+    "Operation": "Update application.",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 8,
+    "ResultStatus": "Success",
+    "UserKey": "10032001EFDB62A1@M365x66046689.onmicrosoft.com",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "AzureActiveDirectory",
+    "ObjectId": "Application_003ae3e6-9404-46e9-b915-b47ab7ebde7c",
+    "UserId": "admin@M365x66046689.onmicrosoft.com",
+    "AzureActiveDirectoryEventType": 1,
+    "ExtendedProperties": [
+      {
+        "Name": "additionalDetails",
+        "Value": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.49\",\"AppId\":\"400340ad-c194-4287-afbe-37c04b0b31b0\"}"
+      },
+      {
+        "Name": "extendedAuditEventCategory",
+        "Value": "Application"
+      }
+    ],
+    "ModifiedProperties": [],
+    "Actor": [
+      {
+        "ID": "admin@M365x66046689.onmicrosoft.com",
+        "Type": 5
+      },
+      {
+        "ID": "10032001EFDB62A1",
+        "Type": 3
+      },
+      {
+        "ID": "18ed3507-a475-4ccb-b669-d66bc9f2a36e",
+        "Type": 2
+      },
+      {
+        "ID": "User_d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 2
+      },
+      {
+        "ID": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 2
+      },
+      {
+        "ID": "User",
+        "Type": 2
+      }
+    ],
+    "ActorContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "InterSystemsId": "85a16343-cf5d-431d-aff3-5dd9984dfbc7",
+    "IntraSystemId": "6ab5359c-629e-4997-a594-bcfba7cf44bb",
+    "SupportTicketId": "",
+    "Target": [
+      {
+        "ID": "Application_003ae3e6-9404-46e9-b915-b47ab7ebde7c",
+        "Type": 2
+      },
+      {
+        "ID": "003ae3e6-9404-46e9-b915-b47ab7ebde7c",
+        "Type": 2
+      },
+      {
+        "ID": "Application",
+        "Type": 2
+      },
+      {
+        "ID": "powershell-sp",
+        "Type": 1
+      },
+      {
+        "ID": "400340ad-c194-4287-afbe-37c04b0b31b0",
+        "Type": 2
+      }
+    ],
+    "TargetContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "EventCreationTime": "2023-01-13T20:06:48"
+  },
+  {
+    "CreationTime": "2023-01-13T20:06:48",
+    "Id": "c623b003-0ac3-4f6f-a151-5c8e8f840a81",
+    "Operation": "Update application – Certificates and secrets management ",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 8,
+    "ResultStatus": "Success",
+    "UserKey": "10032001EFDB62A1@M365x66046689.onmicrosoft.com",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "AzureActiveDirectory",
+    "ObjectId": "Application_003ae3e6-9404-46e9-b915-b47ab7ebde7c",
+    "UserId": "admin@M365x66046689.onmicrosoft.com",
+    "AzureActiveDirectoryEventType": 1,
+    "ExtendedProperties": [
+      {
+        "Name": "additionalDetails",
+        "Value": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.49\",\"AppId\":\"400340ad-c194-4287-afbe-37c04b0b31b0\"}"
+      },
+      {
+        "Name": "extendedAuditEventCategory",
+        "Value": "Application"
+      }
+    ],
+    "ModifiedProperties": [
+      {
+        "Name": "KeyDescription",
+        "NewValue": "[\r\n  \"[KeyIdentifier=bbd01068-bde9-4cc5-a6e7-ab4e2fa81a5c,KeyType=Password,KeyUsage=Verify,DisplayName=powershell sp for running codes against compliance]\",\r\n  \"[KeyIdentifier=c3183839-167b-451c-9c2c-36edbef19fc3,KeyType=AsymmetricX509Cert,KeyUsage=Verify,DisplayName=cettificate for automation]\"\r\n]",
+        "OldValue": "[\r\n  \"[KeyIdentifier=bbd01068-bde9-4cc5-a6e7-ab4e2fa81a5c,KeyType=Password,KeyUsage=Verify,DisplayName=powershell sp for running codes against compliance]\"\r\n]"
+      },
+      {
+        "Name": "Included Updated Properties",
+        "NewValue": "KeyDescription",
+        "OldValue": ""
+      }
+    ],
+    "Actor": [
+      {
+        "ID": "admin@M365x66046689.onmicrosoft.com",
+        "Type": 5
+      },
+      {
+        "ID": "10032001EFDB62A1",
+        "Type": 3
+      },
+      {
+        "ID": "18ed3507-a475-4ccb-b669-d66bc9f2a36e",
+        "Type": 2
+      },
+      {
+        "ID": "User_d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 2
+      },
+      {
+        "ID": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 2
+      },
+      {
+        "ID": "User",
+        "Type": 2
+      }
+    ],
+    "ActorContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "InterSystemsId": "85a16343-cf5d-431d-aff3-5dd9984dfbc7",
+    "IntraSystemId": "6ab5359c-629e-4997-a594-bcfba7cf44bb",
+    "SupportTicketId": "",
+    "Target": [
+      {
+        "ID": "Application_003ae3e6-9404-46e9-b915-b47ab7ebde7c",
+        "Type": 2
+      },
+      {
+        "ID": "003ae3e6-9404-46e9-b915-b47ab7ebde7c",
+        "Type": 2
+      },
+      {
+        "ID": "Application",
+        "Type": 2
+      },
+      {
+        "ID": "powershell-sp",
+        "Type": 1
+      },
+      {
+        "ID": "400340ad-c194-4287-afbe-37c04b0b31b0",
+        "Type": 2
+      }
+    ],
+    "TargetContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "EventCreationTime": "2023-01-13T20:06:48"
+  },
+  {
+    "CreationTime": "2023-01-13T20:06:48",
+    "Id": "51e8f5dc-4485-4c2c-b02a-43947edb28ac",
+    "Operation": "Update service principal.",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 8,
+    "ResultStatus": "Success",
+    "UserKey": "10032001EFDB62A1@M365x66046689.onmicrosoft.com",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "AzureActiveDirectory",
+    "ObjectId": "400340ad-c194-4287-afbe-37c04b0b31b0",
+    "UserId": "admin@M365x66046689.onmicrosoft.com",
+    "AzureActiveDirectoryEventType": 1,
+    "ExtendedProperties": [
+      {
+        "Name": "additionalDetails",
+        "Value": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.49\",\"AppId\":\"400340ad-c194-4287-afbe-37c04b0b31b0\"}"
+      },
+      {
+        "Name": "extendedAuditEventCategory",
+        "Value": "ServicePrincipal"
+      }
+    ],
+    "ModifiedProperties": [
+      {
+        "Name": "Included Updated Properties",
+        "NewValue": "",
+        "OldValue": ""
+      },
+      {
+        "Name": "TargetId.ServicePrincipalNames",
+        "NewValue": "400340ad-c194-4287-afbe-37c04b0b31b0",
+        "OldValue": ""
+      }
+    ],
+    "Actor": [
+      {
+        "ID": "admin@M365x66046689.onmicrosoft.com",
+        "Type": 5
+      },
+      {
+        "ID": "10032001EFDB62A1",
+        "Type": 3
+      },
+      {
+        "ID": "18ed3507-a475-4ccb-b669-d66bc9f2a36e",
+        "Type": 2
+      },
+      {
+        "ID": "User_d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 2
+      },
+      {
+        "ID": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 2
+      },
+      {
+        "ID": "User",
+        "Type": 2
+      }
+    ],
+    "ActorContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "InterSystemsId": "85a16343-cf5d-431d-aff3-5dd9984dfbc7",
+    "IntraSystemId": "6ab5359c-629e-4997-a594-bcfba7cf44bb",
+    "SupportTicketId": "",
+    "Target": [
+      {
+        "ID": "ServicePrincipal_bea938b4-cc01-4259-94fe-2a8ce49a0757",
+        "Type": 2
+      },
+      {
+        "ID": "bea938b4-cc01-4259-94fe-2a8ce49a0757",
+        "Type": 2
+      },
+      {
+        "ID": "ServicePrincipal",
+        "Type": 2
+      },
+      {
+        "ID": "powershell-sp",
+        "Type": 1
+      },
+      {
+        "ID": "400340ad-c194-4287-afbe-37c04b0b31b0",
+        "Type": 2
+      },
+      {
+        "ID": "400340ad-c194-4287-afbe-37c04b0b31b0",
+        "Type": 4
+      }
+    ],
+    "TargetContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "EventCreationTime": "2023-01-13T20:06:48"
+  },
+  {
+    "CreationTime": "2023-01-13T20:05:33",
+    "Id": "47608dbc-7d12-44a3-be33-88e4ea296385",
+    "Operation": "Update application.",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 8,
+    "ResultStatus": "Success",
+    "UserKey": "10032001EFDB62A1@M365x66046689.onmicrosoft.com",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "AzureActiveDirectory",
+    "ObjectId": "Application_003ae3e6-9404-46e9-b915-b47ab7ebde7c",
+    "UserId": "admin@M365x66046689.onmicrosoft.com",
+    "AzureActiveDirectoryEventType": 1,
+    "ExtendedProperties": [
+      {
+        "Name": "additionalDetails",
+        "Value": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.49\",\"AppId\":\"400340ad-c194-4287-afbe-37c04b0b31b0\"}"
+      },
+      {
+        "Name": "extendedAuditEventCategory",
+        "Value": "Application"
+      }
+    ],
+    "ModifiedProperties": [],
+    "Actor": [
+      {
+        "ID": "admin@M365x66046689.onmicrosoft.com",
+        "Type": 5
+      },
+      {
+        "ID": "10032001EFDB62A1",
+        "Type": 3
+      },
+      {
+        "ID": "18ed3507-a475-4ccb-b669-d66bc9f2a36e",
+        "Type": 2
+      },
+      {
+        "ID": "User_d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 2
+      },
+      {
+        "ID": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 2
+      },
+      {
+        "ID": "User",
+        "Type": 2
+      }
+    ],
+    "ActorContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "InterSystemsId": "f0b0f83f-113e-4588-ab50-06b6f61eeed1",
+    "IntraSystemId": "6ab5359c-629e-4997-a594-bcfba7cf44bb",
+    "SupportTicketId": "",
+    "Target": [
+      {
+        "ID": "Application_003ae3e6-9404-46e9-b915-b47ab7ebde7c",
+        "Type": 2
+      },
+      {
+        "ID": "003ae3e6-9404-46e9-b915-b47ab7ebde7c",
+        "Type": 2
+      },
+      {
+        "ID": "Application",
+        "Type": 2
+      },
+      {
+        "ID": "powershell-sp",
+        "Type": 1
+      },
+      {
+        "ID": "400340ad-c194-4287-afbe-37c04b0b31b0",
+        "Type": 2
+      }
+    ],
+    "TargetContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "EventCreationTime": "2023-01-13T20:05:33"
+  },
+  {
+    "CreationTime": "2023-01-13T20:05:33",
+    "Id": "d95cf898-83f1-4ef7-9fd1-62cfc28dd249",
+    "Operation": "Update application – Certificates and secrets management ",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 8,
+    "ResultStatus": "Success",
+    "UserKey": "10032001EFDB62A1@M365x66046689.onmicrosoft.com",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "AzureActiveDirectory",
+    "ObjectId": "Application_003ae3e6-9404-46e9-b915-b47ab7ebde7c",
+    "UserId": "admin@M365x66046689.onmicrosoft.com",
+    "AzureActiveDirectoryEventType": 1,
+    "ExtendedProperties": [
+      {
+        "Name": "additionalDetails",
+        "Value": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.49\",\"AppId\":\"400340ad-c194-4287-afbe-37c04b0b31b0\"}"
+      },
+      {
+        "Name": "extendedAuditEventCategory",
+        "Value": "Application"
+      }
+    ],
+    "ModifiedProperties": [
+      {
+        "Name": "KeyDescription",
+        "NewValue": "[\r\n  \"[KeyIdentifier=bbd01068-bde9-4cc5-a6e7-ab4e2fa81a5c,KeyType=Password,KeyUsage=Verify,DisplayName=powershell sp for running codes against compliance]\"\r\n]",
+        "OldValue": "[\r\n  \"[KeyIdentifier=a0c73a2f-fed6-4321-aa7a-4537848a44f1,KeyType=AsymmetricX509Cert,KeyUsage=Verify,DisplayName=certificate for running anassisted]\",\r\n  \"[KeyIdentifier=bbd01068-bde9-4cc5-a6e7-ab4e2fa81a5c,KeyType=Password,KeyUsage=Verify,DisplayName=powershell sp for running codes against compliance]\"\r\n]"
+      },
+      {
+        "Name": "Included Updated Properties",
+        "NewValue": "KeyDescription",
+        "OldValue": ""
+      }
+    ],
+    "Actor": [
+      {
+        "ID": "admin@M365x66046689.onmicrosoft.com",
+        "Type": 5
+      },
+      {
+        "ID": "10032001EFDB62A1",
+        "Type": 3
+      },
+      {
+        "ID": "18ed3507-a475-4ccb-b669-d66bc9f2a36e",
+        "Type": 2
+      },
+      {
+        "ID": "User_d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 2
+      },
+      {
+        "ID": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 2
+      },
+      {
+        "ID": "User",
+        "Type": 2
+      }
+    ],
+    "ActorContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "InterSystemsId": "f0b0f83f-113e-4588-ab50-06b6f61eeed1",
+    "IntraSystemId": "6ab5359c-629e-4997-a594-bcfba7cf44bb",
+    "SupportTicketId": "",
+    "Target": [
+      {
+        "ID": "Application_003ae3e6-9404-46e9-b915-b47ab7ebde7c",
+        "Type": 2
+      },
+      {
+        "ID": "003ae3e6-9404-46e9-b915-b47ab7ebde7c",
+        "Type": 2
+      },
+      {
+        "ID": "Application",
+        "Type": 2
+      },
+      {
+        "ID": "powershell-sp",
+        "Type": 1
+      },
+      {
+        "ID": "400340ad-c194-4287-afbe-37c04b0b31b0",
+        "Type": 2
+      }
+    ],
+    "TargetContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "EventCreationTime": "2023-01-13T20:05:33"
+  },
+  {
+    "CreationTime": "2023-01-13T20:05:33",
+    "Id": "5379f47c-a6eb-486a-9d70-2138274421f9",
+    "Operation": "Update service principal.",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 8,
+    "ResultStatus": "Success",
+    "UserKey": "10032001EFDB62A1@M365x66046689.onmicrosoft.com",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "AzureActiveDirectory",
+    "ObjectId": "400340ad-c194-4287-afbe-37c04b0b31b0",
+    "UserId": "admin@M365x66046689.onmicrosoft.com",
+    "AzureActiveDirectoryEventType": 1,
+    "ExtendedProperties": [
+      {
+        "Name": "additionalDetails",
+        "Value": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.49\",\"AppId\":\"400340ad-c194-4287-afbe-37c04b0b31b0\"}"
+      },
+      {
+        "Name": "extendedAuditEventCategory",
+        "Value": "ServicePrincipal"
+      }
+    ],
+    "ModifiedProperties": [
+      {
+        "Name": "Included Updated Properties",
+        "NewValue": "",
+        "OldValue": ""
+      },
+      {
+        "Name": "TargetId.ServicePrincipalNames",
+        "NewValue": "400340ad-c194-4287-afbe-37c04b0b31b0",
+        "OldValue": ""
+      }
+    ],
+    "Actor": [
+      {
+        "ID": "admin@M365x66046689.onmicrosoft.com",
+        "Type": 5
+      },
+      {
+        "ID": "10032001EFDB62A1",
+        "Type": 3
+      },
+      {
+        "ID": "18ed3507-a475-4ccb-b669-d66bc9f2a36e",
+        "Type": 2
+      },
+      {
+        "ID": "User_d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 2
+      },
+      {
+        "ID": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 2
+      },
+      {
+        "ID": "User",
+        "Type": 2
+      }
+    ],
+    "ActorContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "InterSystemsId": "f0b0f83f-113e-4588-ab50-06b6f61eeed1",
+    "IntraSystemId": "6ab5359c-629e-4997-a594-bcfba7cf44bb",
+    "SupportTicketId": "",
+    "Target": [
+      {
+        "ID": "ServicePrincipal_bea938b4-cc01-4259-94fe-2a8ce49a0757",
+        "Type": 2
+      },
+      {
+        "ID": "bea938b4-cc01-4259-94fe-2a8ce49a0757",
+        "Type": 2
+      },
+      {
+        "ID": "ServicePrincipal",
+        "Type": 2
+      },
+      {
+        "ID": "powershell-sp",
+        "Type": 1
+      },
+      {
+        "ID": "400340ad-c194-4287-afbe-37c04b0b31b0",
+        "Type": 2
+      },
+      {
+        "ID": "400340ad-c194-4287-afbe-37c04b0b31b0",
+        "Type": 4
+      }
+    ],
+    "TargetContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "EventCreationTime": "2023-01-13T20:05:33"
+  },
+  {
+    "CreationTime": "2023-01-13T20:03:51",
+    "Id": "1ed030d1-7a7b-43d1-ab24-d94b26fb2300",
+    "Operation": "UserLoggedIn",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 15,
+    "ResultStatus": "Success",
+    "UserKey": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "AzureActiveDirectory",
+    "ClientIP": "108.196.164.24",
+    "ObjectId": "00000003-0000-0000-c000-000000000000",
+    "UserId": "admin@M365x66046689.onmicrosoft.com",
+    "AzureActiveDirectoryEventType": 1,
+    "ExtendedProperties": [
+      {
+        "Name": "ResultStatusDetail",
+        "Value": "Redirect"
+      },
+      {
+        "Name": "UserAgent",
+        "Value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.49"
+      },
+      {
+        "Name": "RequestType",
+        "Value": "OAuth2:Authorize"
+      }
+    ],
+    "ModifiedProperties": [],
+    "Actor": [
+      {
+        "ID": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 0
+      },
+      {
+        "ID": "admin@M365x66046689.onmicrosoft.com",
+        "Type": 5
+      }
+    ],
+    "ActorContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "ActorIpAddress": "108.196.164.24",
+    "InterSystemsId": "e74a3260-b5ee-4d2d-8593-e69841d5d4ba",
+    "IntraSystemId": "1ed030d1-7a7b-43d1-ab24-d94b26fb2300",
+    "SupportTicketId": "",
+    "Target": [
+      {
+        "ID": "00000003-0000-0000-c000-000000000000",
+        "Type": 0
+      }
+    ],
+    "TargetContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "ApplicationId": "d7b530a4-7680-4c23-a8bf-c52c121d2e87",
+    "DeviceProperties": [
+      {
+        "Name": "Id",
+        "Value": "2520dbc8-5c5e-44cd-a629-ad8f401536bc"
+      },
+      {
+        "Name": "DisplayName",
+        "Value": "LAPTOP-M68UHIVJ"
+      },
+      {
+        "Name": "OS",
+        "Value": "Windows 10"
+      },
+      {
+        "Name": "BrowserType",
+        "Value": "Edge"
+      },
+      {
+        "Name": "IsCompliantAndManaged",
+        "Value": "False"
+      },
+      {
+        "Name": "TrustType",
+        "Value": "0"
+      },
+      {
+        "Name": "SessionId",
+        "Value": "ac0f2796-0a0a-4cd5-8e7d-6620a023870c"
+      }
+    ],
+    "ErrorNumber": "0",
+    "EventCreationTime": "2023-01-13T20:03:51"
+  },
+  {
+    "CreationTime": "2023-01-13T20:04:45",
+    "Id": "1ed030d1-7a7b-43d1-ab24-d94b88042400",
+    "Operation": "UserLoggedIn",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 15,
+    "ResultStatus": "Success",
+    "UserKey": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "AzureActiveDirectory",
+    "ClientIP": "108.196.164.24",
+    "ObjectId": "797f4846-ba00-4fd7-ba43-dac1f8f63013",
+    "UserId": "admin@M365x66046689.onmicrosoft.com",
+    "AzureActiveDirectoryEventType": 1,
+    "ExtendedProperties": [
+      {
+        "Name": "ResultStatusDetail",
+        "Value": "Success"
+      },
+      {
+        "Name": "UserAgent",
+        "Value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.49"
+      },
+      {
+        "Name": "RequestType",
+        "Value": "OAuth2:Authorize"
+      }
+    ],
+    "ModifiedProperties": [],
+    "Actor": [
+      {
+        "ID": "d7ad5300-af23-4baa-a948-731aa01a2e6b",
+        "Type": 0
+      },
+      {
+        "ID": "admin@M365x66046689.onmicrosoft.com",
+        "Type": 5
+      }
+    ],
+    "ActorContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "ActorIpAddress": "108.196.164.24",
+    "InterSystemsId": "8ec9e747-d6c1-4edf-aa59-fa24c14c4e26",
+    "IntraSystemId": "1ed030d1-7a7b-43d1-ab24-d94b88042400",
+    "SupportTicketId": "",
+    "Target": [
+      {
+        "ID": "797f4846-ba00-4fd7-ba43-dac1f8f63013",
+        "Type": 0
+      }
+    ],
+    "TargetContextId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "ApplicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+    "DeviceProperties": [
+      {
+        "Name": "Id",
+        "Value": "2520dbc8-5c5e-44cd-a629-ad8f401536bc"
+      },
+      {
+        "Name": "DisplayName",
+        "Value": "LAPTOP-M68UHIVJ"
+      },
+      {
+        "Name": "OS",
+        "Value": "Windows 10"
+      },
+      {
+        "Name": "BrowserType",
+        "Value": "Edge"
+      },
+      {
+        "Name": "IsCompliantAndManaged",
+        "Value": "False"
+      },
+      {
+        "Name": "TrustType",
+        "Value": "0"
+      },
+      {
+        "Name": "SessionId",
+        "Value": "ac0f2796-0a0a-4cd5-8e7d-6620a023870c"
+      }
+    ],
+    "ErrorNumber": "0",
+    "EventCreationTime": "2023-01-13T20:04:45"
+  }
+]

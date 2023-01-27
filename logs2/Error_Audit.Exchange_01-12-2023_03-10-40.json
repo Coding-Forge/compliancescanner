@@ -1,0 +1,2710 @@
+[
+  {
+    "CreationTime": "2023-01-11T10:40:26",
+    "Id": "312c1f9b-a024-4cdd-ba81-6f9b18715c70",
+    "Operation": "MailItemsAccessed",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 50,
+    "ResultStatus": "Succeeded",
+    "UserKey": "10032001EFDB62A1",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "Exchange",
+    "UserId": "admin@M365x66046689.OnMicrosoft.com",
+    "AppId": "a3883eba-fbe9-48bd-9ed3-dca3e0e84250",
+    "ClientAppId": "a3883eba-fbe9-48bd-9ed3-dca3e0e84250",
+    "ClientIPAddress": "2603:10b6:a03:479::21",
+    "ClientInfoString": "Client=REST;Client=RESTSystem;;",
+    "ExternalAccess": false,
+    "InternalLogonType": 0,
+    "LogonType": 0,
+    "LogonUserSid": "S-1-5-21-2920428662-559102424-2492728372-18211953",
+    "MailboxGuid": "2b0bcb5f-12a9-4b45-9d5f-718db3564bf8",
+    "MailboxOwnerSid": "S-1-5-21-2920428662-559102424-2492728372-18211953",
+    "MailboxOwnerUPN": "admin@M365x66046689.OnMicrosoft.com",
+    "OperationProperties": [
+      {
+        "Name": "MailAccessType",
+        "Value": "Bind"
+      },
+      {
+        "Name": "IsThrottled",
+        "Value": "False"
+      }
+    ],
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "SJ0PR10MB5857 (15.20.4200.000)\r\n",
+    "Folders": [
+      {
+        "FolderItems": [
+          {
+            "ClientRequestId": "b840cfc5-2ea9-408f-878a-8bf81974e411",
+            "InternetMessageId": "<ab79422c-7f18-4d66-8f96-a26939ab5c7c@az.westus3.unknown.microsoft.com>",
+            "SizeInBytes": 168852
+          },
+          {
+            "ClientRequestId": "b840cfc5-2ea9-408f-878a-8bf81974e411",
+            "InternetMessageId": "<8a7a2b95-8b84-4512-9c58-7043e776516d@az.southcentralus.production.microsoft.com>",
+            "SizeInBytes": 374419
+          }
+        ],
+        "Id": "LgAAAAAgTfM57+LnRoihv59ry9i/AQDd9mqVdTkXSobw3N7xOqGSAAAAAAEMAAAB",
+        "Path": "\\Inbox"
+      }
+    ],
+    "OperationCount": 2,
+    "EventCreationTime": "2023-01-11T10:40:26"
+  },
+  {
+    "CreationTime": "2023-01-11T10:58:06",
+    "Id": "43ee3d51-11af-415f-1d14-08daf3c2b840",
+    "Operation": "New-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:30c:137::5]:63474",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_lexicons_data_1C083844-7C26-4AF6-B754-4C79B507E84D",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH8PR10MB6526 (15.20.6002.012)",
+    "Parameters": [
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartition",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartitionDescription",
+        "Value": "Tenant Wide Lexicon Data Org Partition"
+      },
+      {
+        "Name": "OrgPartitionOwner",
+        "Value": "66a88757-258c-4c72-893c-3e8bed4d6899"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      },
+      {
+        "Name": "SkipEapForArbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "Organization",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-11T10:58:06"
+  },
+  {
+    "CreationTime": "2023-01-11T10:58:15",
+    "Id": "ca9bd9fc-5368-40fc-841e-08daf3c2bdb6",
+    "Operation": "New-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:30c:137::5]:35507",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_wkw_85226AEE-4F2F-4876-A959-D24D5073DA63",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "DM6PR10MB2570 (15.20.6002.013)",
+    "Parameters": [
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartition",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartitionDescription",
+        "Value": "Tenant Wide WKW Data Org Partition"
+      },
+      {
+        "Name": "OrgPartitionOwner",
+        "Value": "66a88757-258c-4c72-893c-3e8bed4d6899"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      },
+      {
+        "Name": "SkipEapForArbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "Organization",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-11T10:58:15"
+  },
+  {
+    "CreationTime": "2023-01-11T12:35:36",
+    "Id": "ea7f7828-f497-4492-0318-08daf3d0572a",
+    "Operation": "Remove-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:306:2020::5]:5073",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_wkw_85226AEE-4F2F-4876-A959-D24D5073DA63",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "SJ0PR10MB4688 (15.20.6002.012)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22\\85361d4a-f25f-4a66-b6f3-a4742c38d599"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-11T12:35:36"
+  },
+  {
+    "CreationTime": "2023-01-11T12:35:32",
+    "Id": "08322386-a407-49ec-4e20-08daf3d054b6",
+    "Operation": "Remove-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:306:2020::5]:22629",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_lexicons_data_1C083844-7C26-4AF6-B754-4C79B507E84D",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH8PR10MB6526 (15.20.6002.012)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22\\fda04d78-0480-4f80-bbb4-06bfd15407cd"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-11T12:35:32"
+  },
+  {
+    "CreationTime": "2023-01-11T16:37:41",
+    "Id": "c6ab1739-6c16-48e9-9272-08daf3f22855",
+    "Operation": "New-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:30c:137::5]:30794",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_wkw_85226AEE-4F2F-4876-A959-D24D5073DA63",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "SJ0PR10MB4688 (15.20.6002.012)",
+    "Parameters": [
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartition",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartitionDescription",
+        "Value": "Tenant Wide WKW Data Org Partition"
+      },
+      {
+        "Name": "OrgPartitionOwner",
+        "Value": "66a88757-258c-4c72-893c-3e8bed4d6899"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      },
+      {
+        "Name": "SkipEapForArbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "Organization",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-11T16:37:41"
+  },
+  {
+    "CreationTime": "2023-01-11T16:37:29",
+    "Id": "ad3d9847-f773-4315-b92b-08daf3f221a2",
+    "Operation": "New-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:30c:137::5]:56334",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_lexicons_data_1C083844-7C26-4AF6-B754-4C79B507E84D",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "DS0PR10MB7344 (15.20.6002.013)",
+    "Parameters": [
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartition",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartitionDescription",
+        "Value": "Tenant Wide Lexicon Data Org Partition"
+      },
+      {
+        "Name": "OrgPartitionOwner",
+        "Value": "66a88757-258c-4c72-893c-3e8bed4d6899"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      },
+      {
+        "Name": "SkipEapForArbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "Organization",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-11T16:37:29"
+  },
+  {
+    "CreationTime": "2023-01-11T18:19:23",
+    "Id": "6287b9ef-c93d-4b70-d356-08daf4005db9",
+    "Operation": "Remove-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:306:2020::5]:53266",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_lexicons_data_1C083844-7C26-4AF6-B754-4C79B507E84D",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "SA3PR10MB7041 (15.20.6002.012)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22\\efb47f4b-12bc-491f-9f1e-51582bdd6204"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-11T18:19:23"
+  },
+  {
+    "CreationTime": "2023-01-11T18:19:27",
+    "Id": "786bbcc2-2732-4751-f667-08daf4006053",
+    "Operation": "Remove-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:306:2020::5]:52276",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_wkw_85226AEE-4F2F-4876-A959-D24D5073DA63",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6058 (15.20.6002.011)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22\\e9c2d141-fbba-4bef-83f0-45a4f7f46d85"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-11T18:19:27"
+  },
+  {
+    "CreationTime": "2023-01-11T22:50:55",
+    "Id": "a90828c0-7560-443d-6510-08daf4264c9b",
+    "Operation": "New-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:30c:137::5]:11351",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_lexicons_data_1C083844-7C26-4AF6-B754-4C79B507E84D",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "SA3PR10MB7041 (15.20.6002.012)",
+    "Parameters": [
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartition",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartitionDescription",
+        "Value": "Tenant Wide Lexicon Data Org Partition"
+      },
+      {
+        "Name": "OrgPartitionOwner",
+        "Value": "66a88757-258c-4c72-893c-3e8bed4d6899"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      },
+      {
+        "Name": "SkipEapForArbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "Organization",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-11T22:50:55"
+  },
+  {
+    "CreationTime": "2023-01-11T22:51:05",
+    "Id": "f3899c3e-45a6-41c4-8d3f-08daf4265236",
+    "Operation": "New-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:30c:137::5]:22206",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_wkw_85226AEE-4F2F-4876-A959-D24D5073DA63",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6058 (15.20.6002.011)",
+    "Parameters": [
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartition",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartitionDescription",
+        "Value": "Tenant Wide WKW Data Org Partition"
+      },
+      {
+        "Name": "OrgPartitionOwner",
+        "Value": "66a88757-258c-4c72-893c-3e8bed4d6899"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      },
+      {
+        "Name": "SkipEapForArbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "Organization",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-11T22:51:05"
+  },
+  {
+    "CreationTime": "2023-01-12T00:23:50",
+    "Id": "9555aa26-4c49-43ea-a05a-08daf4334745",
+    "Operation": "Install-ResourceConfig",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com\\Resource Schema",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Organization",
+        "Value": "M365x66046689.onmicrosoft.com"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:23:50"
+  },
+  {
+    "CreationTime": "2023-01-12T00:23:44",
+    "Id": "6d06d4b1-8ec8-4a6e-903c-08daf43343f9",
+    "Operation": "Install-DataClassificationConfig",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com\\Default Data Config",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "Organization",
+        "Value": "M365x66046689.onmicrosoft.com"
+      },
+      {
+        "Name": "DomainController",
+        "Value": ""
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:23:44"
+  },
+  {
+    "CreationTime": "2023-01-12T00:23:43",
+    "Id": "52d36727-5574-4d52-efe1-08daf433437d",
+    "Operation": "Install-AdminAuditLogConfig",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com\\Admin Audit Log Settings",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Organization",
+        "Value": "M365x66046689.onmicrosoft.com"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:23:43"
+  },
+  {
+    "CreationTime": "2023-01-12T00:23:23",
+    "Id": "a706a928-fcf0-4b65-8d16-08daf4333722",
+    "Operation": "Enable-AddressListPaging",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DoNotUpdateRecipients",
+        "Value": "True"
+      },
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:23:23"
+  },
+  {
+    "CreationTime": "2023-01-12T00:23:27",
+    "Id": "8178ac9e-155f-430a-a472-08daf4333997",
+    "Operation": "Set-TransportConfig",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com\\Transport Settings",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com"
+      },
+      {
+        "Name": "SupervisionTags",
+        "Value": "Reject;Allow"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:23:27"
+  },
+  {
+    "CreationTime": "2023-01-12T00:23:42",
+    "Id": "dc39a334-f744-42b6-60e0-08daf433428f",
+    "Operation": "Install-DefaultSharingPolicy",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com\\2b7eca88-e438-4b28-9350-efc8862235a6",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Organization",
+        "Value": "M365x66046689.onmicrosoft.com"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:23:42"
+  },
+  {
+    "CreationTime": "2023-01-12T00:23:24",
+    "Id": "d720697c-7f17-41bf-60ef-08daf4333804",
+    "Operation": "New-ExchangeAssistanceConfig",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com\\ExchangeAssistance",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Organization",
+        "Value": "M365x66046689.onmicrosoft.com"
+      },
+      {
+        "Name": "IgnoreDehydratedFlag",
+        "Value": "True"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:23:24"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:54",
+    "Id": "97259d46-ccec-4a80-451e-08daf4336d54",
+    "Operation": "Set-RecipientEnforcementProvisioningPolicy",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com\\Recipient Quota Policy",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "IgnoreDehydratedFlag",
+        "Value": "True"
+      },
+      {
+        "Name": "Identity",
+        "Value": "M365x66046689.onmicrosoft.com\\Recipient Quota Policy"
+      },
+      {
+        "Name": "PublicFolderHierarchyMailboxCountQuota",
+        "Value": "100"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:54"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:48",
+    "Id": "571f6643-9e03-4afa-c39b-08daf43369f7",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "QueryBaseDNRestrictionEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:48"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:46",
+    "Id": "6b613b28-e1e8-4131-dbe7-08daf43368a9",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "ArchiveQuota",
+        "Value": "50 GB (53,687,091,200 bytes)"
+      },
+      {
+        "Name": "ArchiveWarningQuota",
+        "Value": "45 GB (48,318,382,080 bytes)"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:46"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:43",
+    "Id": "cd72c210-a408-432f-0c48-08daf4336742",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "SingleItemRecoveryEnabled",
+        "Value": "True"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:43"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:38",
+    "Id": "85beaf58-76ad-46cd-14d7-08daf43363bf",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "HiddenFromAddressListsEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:38"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:36",
+    "Id": "fd7241bf-2d2c-43a0-6d1d-08daf43362fb",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "HiddenFromAddressListsEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:36"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:32",
+    "Id": "60b75a7f-fc41-47c8-7a3a-08daf433602b",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineDeskless-496d30c1-a6de-494b-8ae1-2867224ef23a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "SKUCapability",
+        "Value": "BPOS_S_Deskless"
+      },
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineDeskless-496d30c1-a6de-494b-8ae1-2867224ef23a"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:32"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:29",
+    "Id": "3d529f58-5825-417e-3713-08daf4335e9d",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineDeskless-496d30c1-a6de-494b-8ae1-2867224ef23a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineDeskless-496d30c1-a6de-494b-8ae1-2867224ef23a"
+      },
+      {
+        "Name": "UseDatabaseRetentionDefaults",
+        "Value": "False"
+      },
+      {
+        "Name": "RecoverableItemsQuota",
+        "Value": "30 GB (32,212,254,720 bytes)"
+      },
+      {
+        "Name": "RecoverableItemsWarningQuota",
+        "Value": "20 GB (21,474,836,480 bytes)"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:29"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:16",
+    "Id": "85f6716f-3df5-408e-667e-08daf43356b9",
+    "Operation": "Set-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "RecoverableItemsQuota",
+        "Value": "30 GB (32,212,254,720 bytes)"
+      },
+      {
+        "Name": "Force",
+        "Value": "True"
+      },
+      {
+        "Name": "DisplayName",
+        "Value": "Microsoft Exchange"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "ProhibitSendQuota",
+        "Value": "10 GB (10,737,418,240 bytes)"
+      },
+      {
+        "Name": "HiddenFromAddressListsEnabled",
+        "Value": "True"
+      },
+      {
+        "Name": "SCLDeleteEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "SCLQuarantineEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "SCLRejectEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "UseDatabaseQuotaDefaults",
+        "Value": "False"
+      },
+      {
+        "Name": "RecoverableItemsWarningQuota",
+        "Value": "20 GB (21,474,836,480 bytes)"
+      },
+      {
+        "Name": "IssueWarningQuota",
+        "Value": "9 GB (9,663,676,416 bytes)"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042"
+      },
+      {
+        "Name": "ProhibitSendReceiveQuota",
+        "Value": "10 GB (10,737,418,240 bytes)"
+      },
+      {
+        "Name": "SCLJunkEnabled",
+        "Value": "False"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:16"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:13",
+    "Id": "d87ad8d4-8054-4f51-e438-08daf433555f",
+    "Operation": "Set-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/SystemMailbox{D0E409A0-AF9B-4720-92FE-AAC869B0D201}",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "RecoverableItemsQuota",
+        "Value": "30 GB (32,212,254,720 bytes)"
+      },
+      {
+        "Name": "Force",
+        "Value": "True"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "ProhibitSendQuota",
+        "Value": "99 GB (106,300,440,576 bytes)"
+      },
+      {
+        "Name": "HiddenFromAddressListsEnabled",
+        "Value": "True"
+      },
+      {
+        "Name": "SCLDeleteEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "SCLQuarantineEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "SCLRejectEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "RecoverableItemsWarningQuota",
+        "Value": "20 GB (21,474,836,480 bytes)"
+      },
+      {
+        "Name": "UseDatabaseQuotaDefaults",
+        "Value": "False"
+      },
+      {
+        "Name": "OMEncryptionStore",
+        "Value": "True"
+      },
+      {
+        "Name": "IssueWarningQuota",
+        "Value": "90 GB (96,636,764,160 bytes)"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/SystemMailbox{D0E409A0-AF9B-4720-92FE-AAC869B0D201}"
+      },
+      {
+        "Name": "ProhibitSendReceiveQuota",
+        "Value": "100 GB (107,374,182,400 bytes)"
+      },
+      {
+        "Name": "SCLJunkEnabled",
+        "Value": "False"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:13"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:54",
+    "Id": "051bcc13-25dd-4e09-adb8-08daf4336dc6",
+    "Operation": "Set-ExchangeAssistanceConfig",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com\\ExchangeAssistance15",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "M365x66046689.onmicrosoft.com"
+      },
+      {
+        "Name": "PrivacyStatementURL",
+        "Value": "http://go.microsoft.com/fwlink/?LinkID=259417"
+      },
+      {
+        "Name": "PrivacyLinkDisplayEnabled",
+        "Value": "True"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:54"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:50",
+    "Id": "9bc2cca1-6300-43f0-2d59-08daf4336b4a",
+    "Operation": "Set-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/DiscoverySearchMailbox{D919BA05-46A6-415f-80AD-7E09334BB852}",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/DiscoverySearchMailbox{D919BA05-46A6-415f-80AD-7E09334BB852}"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:50"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:48",
+    "Id": "00419de9-6410-45d6-0359-08daf43369b5",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineDeskless-496d30c1-a6de-494b-8ae1-2867224ef23a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "QueryBaseDNRestrictionEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineDeskless-496d30c1-a6de-494b-8ae1-2867224ef23a"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:48"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:46",
+    "Id": "ad706853-7a33-4cab-9a77-08daf43368ec",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "ArchiveQuota",
+        "Value": "100 GB (107,374,182,400 bytes)"
+      },
+      {
+        "Name": "ArchiveWarningQuota",
+        "Value": "90 GB (96,636,764,160 bytes)"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:46"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:44",
+    "Id": "b5bc7a5d-419a-4ebf-6162-08daf4336790",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "ResetPasswordOnNextLogon",
+        "Value": "False"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:44"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:37",
+    "Id": "0b923b0f-8051-4860-57e9-08daf433637c",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "HiddenFromAddressListsEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:37"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:36",
+    "Id": "87c22cc6-995e-4ef4-4a8f-08daf43362b6",
+    "Operation": "Set-OwaMailboxPolicy",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com\\OwaMailboxPolicy-Default",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "InstantMessagingType",
+        "Value": "Ocs"
+      },
+      {
+        "Name": "Identity",
+        "Value": "M365x66046689.onmicrosoft.com\\OwaMailboxPolicy-Default"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:36"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:31",
+    "Id": "07b3988a-70b8-437c-96b8-08daf4335fe1",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "SKUCapability",
+        "Value": "BPOS_S_Standard"
+      },
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:31"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:27",
+    "Id": "5c38019d-b58d-46fe-e9f4-08daf4335d77",
+    "Operation": "Set-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/TenantAllowBlocLists_F0767F09-6B4C-4F78-9234-2C0481176063",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "RecoverableItemsQuota",
+        "Value": "30 GB (32,212,254,720 bytes)"
+      },
+      {
+        "Name": "Force",
+        "Value": "True"
+      },
+      {
+        "Name": "HiddenFromAddressListsEnabled",
+        "Value": "True"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "ProhibitSendQuota",
+        "Value": "99 GB (106,300,440,576 bytes)"
+      },
+      {
+        "Name": "SCLRejectEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "SCLDeleteEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "SCLQuarantineEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "UseDatabaseQuotaDefaults",
+        "Value": "False"
+      },
+      {
+        "Name": "SCLJunkEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "TenantAllowBlockLists",
+        "Value": "True"
+      },
+      {
+        "Name": "RecoverableItemsWarningQuota",
+        "Value": "20 GB (21,474,836,480 bytes)"
+      },
+      {
+        "Name": "IssueWarningQuota",
+        "Value": "90 GB (96,636,764,160 bytes)"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/TenantAllowBlocLists_F0767F09-6B4C-4F78-9234-2C0481176063"
+      },
+      {
+        "Name": "ProhibitSendReceiveQuota",
+        "Value": "100 GB (107,374,182,400 bytes)"
+      },
+      {
+        "Name": "OrgPartition",
+        "Value": "True"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:27"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:16",
+    "Id": "cc00b90a-de99-4146-d5ea-08daf43356ed",
+    "Operation": "Set-TransportConfig",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com\\Transport Settings",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Identity",
+        "Value": "M365x66046689.onmicrosoft.com"
+      },
+      {
+        "Name": "OrganizationFederatedMailbox",
+        "Value": "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042@M365x66046689.onmicrosoft.com"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:16"
+  },
+  {
+    "CreationTime": "2023-01-12T00:23:59",
+    "Id": "d4088d8e-2da3-40fc-5eca-08daf4334c81",
+    "Operation": "Set-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "Force",
+        "Value": "True"
+      },
+      {
+        "Name": "UMGrammar",
+        "Value": "True"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "MaxSendSize",
+        "Value": "1 GB (1,073,741,824 bytes)"
+      },
+      {
+        "Name": "MailRouting",
+        "Value": "True"
+      },
+      {
+        "Name": "MessageTracking",
+        "Value": "True"
+      },
+      {
+        "Name": "OMEncryption",
+        "Value": "True"
+      },
+      {
+        "Name": "OABGen",
+        "Value": "True"
+      },
+      {
+        "Name": "ClientExtensions",
+        "Value": "True"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}"
+      },
+      {
+        "Name": "GMGen",
+        "Value": "True"
+      },
+      {
+        "Name": "SuiteServiceStorage",
+        "Value": "True"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:23:59"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:58",
+    "Id": "d1b0f513-b750-45bf-5a69-08daf433701d",
+    "Operation": "Set-AdminAuditLogConfig",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com\\Admin Audit Log Settings",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "IgnoreDehydratedFlag",
+        "Value": "True"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com"
+      },
+      {
+        "Name": "AdminAuditLogEnabled",
+        "Value": "True"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:58"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:54",
+    "Id": "2bf03b18-4c5a-4c11-00e5-08daf4336d97",
+    "Operation": "Set-TransportConfig",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com\\Transport Settings",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Identity",
+        "Value": "M365x66046689.onmicrosoft.com"
+      },
+      {
+        "Name": "HygieneSuite",
+        "Value": "Premium"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:54"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:48",
+    "Id": "0d993f0b-4438-48e1-8086-08daf4336a3a",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "QueryBaseDNRestrictionEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:48"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:47",
+    "Id": "6cba8e2a-cad3-47d0-887d-08daf433692f",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "ArchiveQuota",
+        "Value": "100 GB (107,374,182,400 bytes)"
+      },
+      {
+        "Name": "ArchiveWarningQuota",
+        "Value": "90 GB (96,636,764,160 bytes)"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:47"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:45",
+    "Id": "262c09c0-cb5c-4ba2-9a5f-08daf433681f",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "ResetPasswordOnNextLogon",
+        "Value": "False"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:45"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:44",
+    "Id": "9f588ed3-234c-426f-e46a-08daf43367d7",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineDeskless-496d30c1-a6de-494b-8ae1-2867224ef23a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "ResetPasswordOnNextLogon",
+        "Value": "False"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineDeskless-496d30c1-a6de-494b-8ae1-2867224ef23a"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:44"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:42",
+    "Id": "797ca105-306e-48e6-e9c7-08daf43366a6",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineDeskless-496d30c1-a6de-494b-8ae1-2867224ef23a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "SingleItemRecoveryEnabled",
+        "Value": "True"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineDeskless-496d30c1-a6de-494b-8ae1-2867224ef23a"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:42"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:37",
+    "Id": "42578bab-d8ad-44c2-f9f7-08daf433633b",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineDeskless-496d30c1-a6de-494b-8ae1-2867224ef23a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "HiddenFromAddressListsEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineDeskless-496d30c1-a6de-494b-8ae1-2867224ef23a"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:37"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:30",
+    "Id": "c0a199e7-7fe6-4309-9ac6-08daf4335f4d",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d"
+      },
+      {
+        "Name": "UseDatabaseRetentionDefaults",
+        "Value": "False"
+      },
+      {
+        "Name": "RecoverableItemsQuota",
+        "Value": "30 GB (32,212,254,720 bytes)"
+      },
+      {
+        "Name": "RecoverableItemsWarningQuota",
+        "Value": "20 GB (21,474,836,480 bytes)"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:30"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:28",
+    "Id": "a70f9394-4edf-401a-498a-08daf4335e47",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a"
+      },
+      {
+        "Name": "UseDatabaseRetentionDefaults",
+        "Value": "False"
+      },
+      {
+        "Name": "RecoverableItemsQuota",
+        "Value": "30 GB (32,212,254,720 bytes)"
+      },
+      {
+        "Name": "RecoverableItemsWarningQuota",
+        "Value": "20 GB (21,474,836,480 bytes)"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:28"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:14",
+    "Id": "1efa8b5d-134d-4c20-8163-08daf43355fa",
+    "Operation": "Set-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/SystemMailbox{2CE34405-31BE-455D-89D7-A7C7DA7A0DAA}",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/SystemMailbox{2CE34405-31BE-455D-89D7-A7C7DA7A0DAA}"
+      },
+      {
+        "Name": "ShardRelevancyFeatureStore",
+        "Value": "True"
+      },
+      {
+        "Name": "Force",
+        "Value": "True"
+      },
+      {
+        "Name": "DisplayName",
+        "Value": "Microsoft Exchange"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:14"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:02",
+    "Id": "f8f64491-f99c-46e5-04db-08daf4334e5c",
+    "Operation": "Set-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/Migration.8f3e7716-2011-43e4-96b1-aba62d229136",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "ProhibitSendReceiveQuota",
+        "Value": "10 GB (10,737,418,240 bytes)"
+      },
+      {
+        "Name": "SCLJunkEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "UseDatabaseQuotaDefaults",
+        "Value": "False"
+      },
+      {
+        "Name": "Management",
+        "Value": "True"
+      },
+      {
+        "Name": "Force",
+        "Value": "True"
+      },
+      {
+        "Name": "RecoverableItemsWarningQuota",
+        "Value": "20 GB (21,474,836,480 bytes)"
+      },
+      {
+        "Name": "DisplayName",
+        "Value": "Microsoft Exchange Migration"
+      },
+      {
+        "Name": "IssueWarningQuota",
+        "Value": "9 GB (9,663,676,416 bytes)"
+      },
+      {
+        "Name": "SCLQuarantineEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "HiddenFromAddressListsEnabled",
+        "Value": "True"
+      },
+      {
+        "Name": "Migration",
+        "Value": "True"
+      },
+      {
+        "Name": "RecoverableItemsQuota",
+        "Value": "30 GB (32,212,254,720 bytes)"
+      },
+      {
+        "Name": "SCLDeleteEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "SCLRejectEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "ProhibitSendQuota",
+        "Value": "10 GB (10,737,418,240 bytes)"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/Migration.8f3e7716-2011-43e4-96b1-aba62d229136"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:02"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:58",
+    "Id": "4c70d245-4692-42ca-89e7-08daf4336fc7",
+    "Operation": "Set-TenantObjectVersion",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "M365x66046689.onmicrosoft.com",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:58"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:51",
+    "Id": "fd7e248b-b55e-43bd-3d2f-08daf4336bd2",
+    "Operation": "Add-MailboxPermission",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/DiscoverySearchMailbox{D919BA05-46A6-415f-80AD-7E09334BB852}",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/DiscoverySearchMailbox{D919BA05-46A6-415f-80AD-7E09334BB852}"
+      },
+      {
+        "Name": "User",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/Discovery Management"
+      },
+      {
+        "Name": "AccessRights",
+        "Value": "FullAccess"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:51"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:47",
+    "Id": "c13b076b-a4ee-48a8-4799-08daf4336972",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "QueryBaseDNRestrictionEnabled",
+        "Value": "False"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:47"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:45",
+    "Id": "3a319ce0-4d28-41a1-7f98-08daf4336869",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "ResetPasswordOnNextLogon",
+        "Value": "False"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:45"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:43",
+    "Id": "69688efd-1fa9-46bd-9f70-08daf43366ee",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "SingleItemRecoveryEnabled",
+        "Value": "True"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:43"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:42",
+    "Id": "edc91212-1c84-42b0-2c44-08daf4336664",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "SingleItemRecoveryEnabled",
+        "Value": "True"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnline-c8fcc12d-5e0e-4d13-904c-9b1fbee6b46a"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:42"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:32",
+    "Id": "e6897bbb-5adc-40d2-e450-08daf43360bc",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "SKUCapability",
+        "Value": "BPOS_S_Essentials"
+      },
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEssentials-2f33e91f-b100-4f03-aede-46a904e7303d"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:32"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:32",
+    "Id": "68e22d8d-f6dc-4c69-fd32-08daf4336072",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "SKUCapability",
+        "Value": "BPOS_S_Enterprise"
+      },
+      {
+        "Name": "DomainController",
+        "Value": ""
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:32"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:29",
+    "Id": "8c98c14c-2f4f-4d10-683e-08daf4335ef5",
+    "Operation": "Set-MailboxPlan",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/ExchangeOnlineEnterprise-3efcb6d1-49df-471a-9282-fc1a1d3db964"
+      },
+      {
+        "Name": "UseDatabaseRetentionDefaults",
+        "Value": "False"
+      },
+      {
+        "Name": "RecoverableItemsQuota",
+        "Value": "30 GB (32,212,254,720 bytes)"
+      },
+      {
+        "Name": "RecoverableItemsWarningQuota",
+        "Value": "20 GB (21,474,836,480 bytes)"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:29"
+  },
+  {
+    "CreationTime": "2023-01-12T00:24:00",
+    "Id": "0c5556f3-6f1d-42c4-398d-08daf4334d28",
+    "Operation": "Set-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}",
+    "UserId": "NT AUTHORITY\\SYSTEM (Microsoft.Exchange.ServiceHost)",
+    "AppId": "",
+    "ClientAppId": "",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH7PR10MB6652 (15.20.5986.018)",
+    "Parameters": [
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "Identity",
+        "Value": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}"
+      },
+      {
+        "Name": "UMDataStorage",
+        "Value": "True"
+      },
+      {
+        "Name": "Force",
+        "Value": "True"
+      }
+    ],
+    "EventCreationTime": "2023-01-12T00:24:00"
+  },
+  {
+    "CreationTime": "2023-01-12T00:48:59",
+    "Id": "d1d81a04-d8d2-4ca0-2586-08daf436cada",
+    "Operation": "Remove-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:301:21d6::5]:45583",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_lexicons_data_1C083844-7C26-4AF6-B754-4C79B507E84D",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "SA1PR10MB6542 (15.20.6002.012)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22\\4fb25768-1828-49c0-a5ea-8f3280c59d11"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-12T00:48:59"
+  },
+  {
+    "CreationTime": "2023-01-12T00:49:03",
+    "Id": "b20a5c7d-449c-4786-a49b-08daf436cd73",
+    "Operation": "Remove-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:301:21d6::5]:32457",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_wkw_85226AEE-4F2F-4876-A959-D24D5073DA63",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "DM4PR10MB6837 (15.20.5944.019)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22\\3c02993a-bfe0-4dca-8508-4aaceae48e87"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-12T00:49:03"
+  },
+  {
+    "CreationTime": "2023-01-12T04:58:17",
+    "Id": "b76791b5-983b-41f2-5149-08daf4599e3d",
+    "Operation": "New-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:30c:137::5]:32134",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_lexicons_data_1C083844-7C26-4AF6-B754-4C79B507E84D",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "SA1PR10MB6542 (15.20.6002.012)",
+    "Parameters": [
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartition",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartitionDescription",
+        "Value": "Tenant Wide Lexicon Data Org Partition"
+      },
+      {
+        "Name": "OrgPartitionOwner",
+        "Value": "66a88757-258c-4c72-893c-3e8bed4d6899"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      },
+      {
+        "Name": "SkipEapForArbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "Organization",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-12T04:58:17"
+  },
+  {
+    "CreationTime": "2023-01-12T04:58:28",
+    "Id": "ac42ee5e-b24d-46de-aefe-08daf459a559",
+    "Operation": "New-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:30c:137::5]:14997",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_wkw_85226AEE-4F2F-4876-A959-D24D5073DA63",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "DM4PR10MB6837 (15.20.5944.019)",
+    "Parameters": [
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartition",
+        "Value": "True"
+      },
+      {
+        "Name": "OrgPartitionDescription",
+        "Value": "Tenant Wide WKW Data Org Partition"
+      },
+      {
+        "Name": "OrgPartitionOwner",
+        "Value": "66a88757-258c-4c72-893c-3e8bed4d6899"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      },
+      {
+        "Name": "SkipEapForArbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "Organization",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-12T04:58:28"
+  },
+  {
+    "CreationTime": "2023-01-12T06:49:39",
+    "Id": "d24e6a11-633f-4c88-2720-08daf4692d69",
+    "Operation": "Remove-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:306:2020::5]:6727",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_lexicons_data_1C083844-7C26-4AF6-B754-4C79B507E84D",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "CH2PR10MB4119 (15.20.6002.013)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22\\75f7634b-4432-45c8-a38a-38bf97ff53a1"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-12T06:49:39"
+  },
+  {
+    "CreationTime": "2023-01-12T06:49:45",
+    "Id": "727a96ac-fbc7-4781-243f-08daf46930c8",
+    "Operation": "Remove-Mailbox",
+    "OrganizationId": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22",
+    "RecordType": 1,
+    "ResultStatus": "True",
+    "UserKey": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "UserType": 3,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ClientIP": "[2603:1036:306:2020::5]:57433",
+    "ObjectId": "NAMPR10A008.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/M365x66046689.onmicrosoft.com/chengdu_wkw_85226AEE-4F2F-4876-A959-D24D5073DA63",
+    "UserId": "NT AUTHORITY\\SYSTEM (w3wp)",
+    "AppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ClientAppId": "66a88757-258c-4c72-893c-3e8bed4d6899",
+    "ExternalAccess": true,
+    "OrganizationName": "M365x66046689.onmicrosoft.com",
+    "OriginatingServer": "PH0PR10MB4517 (15.20.6002.012)",
+    "Parameters": [
+      {
+        "Name": "Identity",
+        "Value": "cf7df1e7-ae11-45e9-a012-6ff6e4479d22\\8010a81f-b39f-4a87-b95e-46f779b99c93"
+      },
+      {
+        "Name": "Arbitration",
+        "Value": "True"
+      },
+      {
+        "Name": "DomainController",
+        "Value": "DM5PR10A08DC002.NAMPR10A008.PROD.OUTLOOK.COM"
+      }
+    ],
+    "SessionId": "",
+    "EventCreationTime": "2023-01-12T06:49:45"
+  }
+]
