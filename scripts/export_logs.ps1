@@ -137,7 +137,6 @@ HISTORY
 #  
 #------------------------------------------------------------------------------ 
 
-
 #
 # UseTimeParameters - if given, the provided start/end times are used instead of calculated times from timestamp file
 # pFilenameCode - Code that will used in filename instead of date
@@ -172,7 +171,8 @@ param(
 DynamicParam 
 {
     # create dynamic parameters based on 'schema.json' entries set to 'True'
-    $filePath = "$PSScriptRoot\schemas.json"
+    $filePath = "$PSScriptRoot/schemas.json"
+    # $filePath = "schemas.json"
     if (Test-Path -Path $filePath)
     {
         $RunTimeDictionary = New-Object System.Management.Automation.RuntimeDefinedParameterDictionary
@@ -562,12 +562,12 @@ function Publish-LogAnalytics
         {
             $elements = 0
             $eventJSON = $list | ConvertTo-Json -Depth 100
-            $result = PostLogAnalyticsData -customerId $CustomerID -sharedKey $SharedKey -json $eventJSON -logType $LogName 
+            $result = 220  # PostLogAnalyticsData -customerId $CustomerID -sharedKey $SharedKey -json $eventJSON -logType $LogName 
             if ([int]$result.StatusCode -ne 200)
             {
                 $count -= $BatchSize 
                 Write-Host "Error exporting to the Log Analytics. Exception: $($result.Exception)" -ForegroundColor Red
-                $errorFile = $OutputPath + "Error_" + $Subscription + "_" + $Date + ".json"
+                $errorFile = $OutputPath + "DataFor_" + $Subscription + "_" + $Date + ".json"
                 $eventJSON | Set-Content -Encoding utf8 -Path $errorFile
                 Write-Host "Failed records were saved to the $errorFile file. Please investigate them and import with ExportAIPData2LA script."
             }
@@ -578,12 +578,12 @@ function Publish-LogAnalytics
     if ($list.Count -gt 0)
     {
         $eventJSON = $list | ConvertTo-Json -Depth 100
-        $result = PostLogAnalyticsData -customerId $CustomerID -sharedKey $SharedKey -json $eventJSON -logType $LogName 
+        $result = 220 # PostLogAnalyticsData -customerId $CustomerID -sharedKey $SharedKey -json $eventJSON -logType $LogName 
         if ([int]$result.StatusCode -ne 200)
         {
             $count -= $elements 
             Write-Host "Error exporting to the Log Analytics. Exception: $($result.Exception)" -ForegroundColor Red
-            $errorFile = $OutputPath + "Error_" + $Subscription + "_" + $Date + ".json"
+            $errorFile = $OutputPath + "DataFor_" + $Subscription + "_" + $Date + ".json"
             $eventJSON | Set-Content -Encoding utf8 -Path $errorFile
             Write-Host "Failed records were saved to the $errorFile file. Please investigate them and import with ExportAIPData2LA script."
         }
@@ -630,8 +630,8 @@ $BatchSize = 500
 
 $Path = (Get-Location).Path
 
-$CONFIGFILE = "$Path\config.json"   
-$SCHEMASFILE = "$Path\shemas.json"   
+$CONFIGFILE = "$PSScriptRoot/config.json"   
+$SCHEMASFILE = "$PSScriptRoot/schema.json"   
 
 if (-not $OutputPath.EndsWith("\"))
 {
@@ -707,7 +707,8 @@ $timestampFile = $OutputPath + "timestamp.json"
 # read startTime from the file
 if (-not (Test-Path -Path $timestampFile))
 {
-    # if file not present create new value
+    # if file not present create new 
+    Write-Host "Timestamp not present. Will create new timestamp."
     $startTime = (Get-Date).AddHours(-23).ToString("yyyy-MM-ddTHH:mm:ss")
 }
 else 
@@ -725,6 +726,7 @@ else
 }
 $endTime = (Get-Date).ToString("yyyy-MM-ddTHH:mm:ss")
 # check if difference between start and end times bigger than 24 hours 
+
 if ((New-TimeSpan -Start $startTime -End $endTime).TotalHours -gt 24)
 {
     $endTime = ([datetime]$startTime).AddHours(23).ToString("yyyy-MM-ddTHH:mm:ss")
