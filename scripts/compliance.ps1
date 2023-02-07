@@ -28,11 +28,11 @@ $GCCH = "https://manage.office365.us"
 $DOD = "https://manage.protection.apps.mil"
 
 # Script variables 01  --> Update everything in this section:
-$AppClientID = ""
-$ClientSecretValue = ""
-$TenantGUID = ""
-$tenantdomain = ""
-$OutputPath = ""
+$AppClientID = $env:graph_client_id
+$ClientSecretValue = $env:graph_client_secret
+$TenantGUID = $env:graph_tenant_id
+$tenantdomain = $env:graph_tenant_domain
+$OutputPath = "../logs/"
 $APIResource = $Enterprise  #(Your tenant endpoint URL choice here)
 
 
@@ -43,25 +43,14 @@ $Subscriptions = @('Audit.AzureActiveDirectory','Audit.Exchange','Audit.SharePoi
 
 #$Date = Get-date
 $Date = (Get-date).AddDays(-265)
-$Date = $Date.ToString('MM-dd-yyyy_hh-mm-ss')
-
-
 
 # Invoke-WebRequest -Method GET -Headers $OfficeToken -Uri "$BaseURI/content?contentType=$Subscription&startTime=$Date022T00:00&endTime=$Date022T23:59&PublisherIdentifier=$TenantGUID" ErrorAction Stop
 # Create Function to Check content availability in all content types (inlcuding all pages) and store results in $Subscription variable, also build the URI list in the correct format
-function buildLog($BaseURI, $Subscription, $tenantGUID, $OfficeToken){
+function buildLog($BaseURI, $Subscription, $tenantGUID, $OfficeToken, $StartDate, $EndDate){
 
-    $Date = (Get-date).AddDays(-365)
-    $Date = $Date.ToString('MM-dd-yyyy hh:mm:ss')
-
-    while((Get-date).ToString('MM-dd-yyyy_hh-mm-ss') -ge ($Date)){
-        $Date=[datetime]$Date
-        $Date = $Date.AddDays(1)
-        $Date = $Date.ToString('MM-dd-yyyy hh:mm:ss')
-        Write-Host 'this is the calculated date: '$Date
         try {
             write-host 'good to go'
-            $Log = Invoke-WebRequest -Method GET -Headers $OfficeToken -Uri "$BaseURI/content?contentType=$Subscription&PublisherIdentifier=$TenantGUID&startTime=$Date022T00:00&endTime=$Date022T23:59" -UseBasicParsing -ErrorAction Stop
+            $Log = Invoke-WebRequest -Method GET -Headers $OfficeToken -Uri "$BaseURI/content?contentType=$Subscription&PublisherIdentifier=$TenantGUID&startTime=$StartDate&endTime=$EndDate" -UseBasicParsing -ErrorAction Stop
         } catch {
                 write-host -ForegroundColor Red "Invoke-WebRequest command has failed"
                 Write-host $error[0]
@@ -86,7 +75,6 @@ function buildLog($BaseURI, $Subscription, $tenantGUID, $OfficeToken){
             }
         } 
         $TotalContentPages += $Log
-    }
     Write-Host -ForegroundColor Green "OK"
     return $TotalContentPages
 }
@@ -203,20 +191,30 @@ function outputToFile($TotalContentPages, $JSONfilename, $Officetoken){
 
 #Collecting and Exporting Log data
 Write-Host -ForegroundColor Blue -BackgroundColor white "Checking output folder path"
-$JSONfileName = getFileName $Date $Subscription $outputPath
 
-Write-Host -ForegroundColor Blue -BackgroundColor white "Collecting and Exporting Log data"
-foreach($Subscription in $Subscriptions){
+$Date = (Get-date).AddDays(-6)
+#$Date = $Date.ToString('MM-dd-yyyy hh:mm:ss')
+
+while((Get-date).AddDays(-1) -ge ($Date)){
+    $StartDate = $Date.ToString("yyyy-MM-ddT00:00")
+    $EndDate = $Date.ToString("yyyy-MM-ddT23:59")
+    $JSONfileName = getFileName $StartDate $Subscription $outputPath
+    $Date = $Date.AddDays(1)
+
+    Write-Host -ForegroundColor Blue -BackgroundColor white "Collecting and Exporting Log data"
+    foreach($Subscription in $Subscriptions){
+        
+        Write-Host -ForegroundColor Cyan "-> Collecting log data from '" -NoNewline
+        Write-Host -ForegroundColor White -BackgroundColor DarkGray $Subscription -NoNewline
+        Write-Host -ForegroundColor Cyan "': " -NoNewline
+        $logs = buildLog $BaseURI $Subscription $TenantGUID $OfficeToken $StartDate $EndDate
     
-    Write-Host -ForegroundColor Cyan "-> Collecting log data from '" -NoNewline
-    Write-Host -ForegroundColor White -BackgroundColor DarkGray $Subscription -NoNewline
-    Write-Host -ForegroundColor Cyan "': " -NoNewline
-    $logs = buildLog $BaseURI $Subscription $TenantGUID $OfficeToken
+        $JSONfilename = ($OutputPath + $Subscription + "_" + $StartDate + ".json")
+      
+        Write-host -ForegroundColor Cyan "---> Exporting log data to '" -NoNewline
+        Write-Host -ForegroundColor White -BackgroundColor DarkGray $JSONfilename -NoNewline
+        Write-Host -ForegroundColor Cyan "': " -NoNewline
+        outputToFile $logs $JSONfilename $OfficeToken
+    }
 
-    $JSONfilename = ($OutputPath + $Subscription + "_" + $Date + ".json")
-  
-    Write-host -ForegroundColor Cyan "---> Exporting log data to '" -NoNewline
-    Write-Host -ForegroundColor White -BackgroundColor DarkGray $JSONfilename -NoNewline
-    Write-Host -ForegroundColor Cyan "': " -NoNewline
-    outputToFile $logs $JSONfilename $OfficeToken
 }
