@@ -4,3 +4,9 @@ $mycert = New-SelfSignedCertificate -DnsName $env:graph_tenant_domain -CertStore
 $mycert | Export-PfxCertificate -FilePath Sentinel.pfx -Password (Get-Credential).password
 # Export certificate to .cer file
 $mycert | Export-Certificate -FilePath Sentinel.cer 
+
+<#
+## Pull out the Thumbprint to be used for Automation
+$cert = Get-ChildItem Cert:\CurrentUser\My | where{$_.Subject -eq "CN=$env:graph_tenant_domain"}
+Write-Host $cert.Thumbprint
+#>
