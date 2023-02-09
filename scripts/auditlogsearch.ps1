@@ -105,7 +105,7 @@ Function Get-Records([string]$record) {
                     Write-LogFile $message $logFile
                     Write-Host "Successfully retrieved $($currentTotal) audit records for the current time range. Moving on to the next interval." -foregroundColor Yellow
                     ""
-                    # break
+                    break
                 }
             }
         }
