@@ -15,14 +15,18 @@ AzureActiveDirectoryAccountLogon
 DataCenterSecurityCmdlet
 #>
 
-$startValue = -30
+$currentPath = (Split-Path $MyInvocation.MyCommand.Definition -Parent)
+Import-Module "$currentPath\utils\utils.psm1" -Force
+
+
 
 # get the path to the current users My Documents
 $mydocuments = [environment]::getfolderpath("mydocuments")
 
 #Modify the values for the following variables to configure the audit log search.
+$startValue = -14
 [DateTime]$start = [DateTime]::UtcNow.AddDays($startValue)
-[DateTime]$end = [DateTime]::UtcNow.AddDays($startValue+30)
+[DateTime]$end = [DateTime]::UtcNow.AddDays($startValue+1)
 #$record = "SharePoint"
 $resultSize = 5000
 $intervalMinutes = 60
@@ -52,15 +56,19 @@ $RecordTypes = @(
 
 Function Get-Records([string]$record) {
 
-
     # Authenticate to Exchange Online
     Connect-ExchangeOnline -CertificateThumbPrint $env:my_certificate `
                             -AppID $env:my_client_id `
                             -Organization $env:my_tenant_domain
 
+    $today = (Get-Date).ToString("yyyyMMdd")
+                            
+    $outputPath = "$mydocuments\search-unifiedauditlog\$record"
+    $logFile = "$outputPath\log_$today.txt"
+    $outputFile = "$outputPath\Records_$today.csv"
 
-    $logFile = "$mydocuments\AuditLogSearchLog_$record.txt"
-    $outputFile = "$mydocuments\AuditLogRecords_$record.csv"
+    #verify that the path is valid
+    CheckOutputDirectory($outputPath)
 
     Write-LogFile "BEGIN: Retrieving audit records between $($start) and $($end), RecordType=$record, PageSize=$resultSize." $logFile
     Write-Host "Retrieving audit records for the date range between $($start) and $($end), RecordType=$record, ResultsSize=$resultSize"
@@ -93,8 +101,8 @@ Function Get-Records([string]$record) {
                 
                 if (($results | Measure-Object).Count -ne 0)
                 {
+                    
                     $results | export-csv -Path $outputFile -Append -NoTypeInformation
-                
                     $currentTotal = $results[0].ResultCount
                     $totalCount += $results.Count
                     $currentCount += $results.Count
