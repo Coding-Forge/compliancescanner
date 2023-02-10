@@ -15,8 +15,7 @@ AzureActiveDirectoryAccountLogon
 DataCenterSecurityCmdlet
 #>
 
-$startValue = -285
-
+$startValue = -30
 
 # get the path to the current users My Documents
 $mydocuments = [environment]::getfolderpath("mydocuments")
@@ -39,11 +38,11 @@ Function Write-LogFile ([String]$Message, [String]$logFile)
 }
 
 $RecordTypes = @(
-    "OneDrive",	
     "ExchangeAdmin",	
     "ExchangeItem",	
     "ExchangeItemGroup",	
     "SharePoint",	
+    "OneDrive",	
     "SyntheticProbe",	
     "SharePointFileOperation",	
     "AzureActiveDirectory",	
@@ -55,9 +54,9 @@ Function Get-Records([string]$record) {
 
 
     # Authenticate to Exchange Online
-    Connect-ExchangeOnline -CertificateThumbPrint $env:graph_certificate `
-                            -AppID $env:graph_client_id `
-                            -Organization $env:graph_tenant_domain
+    Connect-ExchangeOnline -CertificateThumbPrint $env:my_certificate `
+                            -AppID $env:my_client_id `
+                            -Organization $env:my_tenant_domain
 
 
     $logFile = "$mydocuments\AuditLogSearchLog_$record.txt"
@@ -88,29 +87,31 @@ Function Get-Records([string]$record) {
         $sw = [Diagnostics.StopWatch]::StartNew()
         do
         {
-            $results = Search-UnifiedAuditLog -StartDate $currentStart -EndDate $currentEnd -RecordType $record -SessionId $sessionID -SessionCommand ReturnLargeSet -ResultSize $resultSize
-            
-            if (($results | Measure-Object).Count -ne 0)
-            {
-                $results | export-csv -Path $outputFile -Append -NoTypeInformation
+            try{
+
+                $results = Search-UnifiedAuditLog -StartDate $currentStart -EndDate $currentEnd -RecordType $record -SessionId $sessionID -SessionCommand ReturnLargeSet -ResultSize $resultSize
                 
-                $currentTotal = $results[0].ResultCount
-                $totalCount += $results.Count
-                $currentCount += $results.Count
-                Write-LogFile "INFO: Retrieved $($currentCount) audit records out of the total $($currentTotal)" $logFile
-                
-                if ($currentTotal -eq $results[$results.Count - 1].ResultIndex)
+                if (($results | Measure-Object).Count -ne 0)
                 {
-                    $message = "INFO: Successfully retrieved $($currentTotal) audit records for the current time range. Moving on!"
-                    Write-LogFile $message $logFile
-                    Write-Host "Successfully retrieved $($currentTotal) audit records for the current time range. Moving on to the next interval." -foregroundColor Yellow
-                    ""
-<<<<<<< HEAD
-                    break
-=======
-                    # break
->>>>>>> 37c188a50227f2ca52f9b8467ae1ec242196ea5e
+                    $results | export-csv -Path $outputFile -Append -NoTypeInformation
+                
+                    $currentTotal = $results[0].ResultCount
+                    $totalCount += $results.Count
+                    $currentCount += $results.Count
+                    Write-LogFile "INFO: Retrieved $($currentCount) audit records out of the total $($currentTotal)" $logFile
+                    
+                    if ($currentTotal -eq $results[$results.Count - 1].ResultIndex)
+                    {
+                        $message = "INFO: Successfully retrieved $($currentTotal) audit records for the current time range. Moving on!"
+                        Write-LogFile $message $logFile
+                        Write-Host "Successfully retrieved $($currentTotal) audit records for the current time range. Moving on to the next interval." -foregroundColor Yellow
+                        ""
+                        break
+                    }
                 }
+            } catch {
+                Write-Warning "Error occurred: $_"
+                Continue
             }
         }
         while (($results | Measure-Object).Count -ne 0)
